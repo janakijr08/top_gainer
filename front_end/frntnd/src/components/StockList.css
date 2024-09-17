@@ -1,0 +1,39 @@
+.stock-list {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .stock-list h1 {
+    margin-bottom: 20px;
+  }
+  
+  .stock-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stock-list li {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stock-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .stock-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .stock-list li a {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
